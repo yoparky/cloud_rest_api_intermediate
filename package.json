@@ -1,5 +1,5 @@
 {
-  "name": "cloudapp_rest_api_intermediate",
+  "name": "cloudapp_rest_api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
