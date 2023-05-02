@@ -1,29 +1,33 @@
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri Light;}{\f1\fswiss\fprq2\fcharset0 Calibri;}{\f2\fmodern\fprq1\fcharset0 Consolas;}{\f3\fmodern\fprq1\fcharset0 Courier New;}{\f4\fnil\fcharset2 Symbol;}}
-{\colortbl ;\red5\green99\blue193;\red0\green0\blue255;\red47\green84\blue150;\red31\green55\blue99;\red45\green59\blue69;}
+{\colortbl ;\red0\green0\blue255;\red5\green99\blue193;\red47\green84\blue150;\red31\green55\blue99;\red45\green59\blue69;}
 {\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}{\s4 heading 4;}}
 {\*\generator Riched20 10.0.22621}{\*\mmathPr\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
 \pard\widctlpar\qc\expndtw-10\kerning28\f0\fs44 Assignment 4: API Spec\par
+\par
+{{\field{\*\fldinst{HYPERLINK https://a4-rest-api.wl.r.appspot.com }}{\fldrslt{https://a4-rest-api.wl.r.appspot.com\ul0\cf0}}}}\f0\fs44\par
+\par
 
 \pard\widctlpar\sa160\sl252\slmult1\qc\expndtw0\kerning0\f1\fs22 CS 493: Cloud Application Development\par
 Spring 2023\par
 Oregon State University\par
 Last Update: May 1. 8:40 pm Pacific, parky8\par
 
-\pard\widctlpar\sa100\sl252\slmult1\tqr\tldot\tx9350 {\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Change log\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Data Model\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Create a Boat\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Get a Boat\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 List all Boats\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Delete a Boat\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Li\cf0\ulnone st all Loads on a Boat\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 As\cf0\ulnone sign a Load to a Boat\tab }}}}\f1\fs22\par
-\cf1\ul Unas{{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 s\cf0\ulnone sign a Load from a Boat\tab }}}}\cf0\ulnone\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Create a Lo\cf0\ulnone ad\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Get a Lo\cf0\ulnone ad\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 List all Loads\cf0\ulnone\tab }}}}\f1\fs22\par
-{\cf1\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf2 Delete a Lo\cf0\ulnone ad\tab }}}}\f1\fs22\par
+\pard\widctlpar\sa100\sl252\slmult1\tqr\tldot\tx9350 {\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Change log\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Data Model\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Create a Boat\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Get a Boat\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 List all Boats\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Delete a Boat\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Li\cf0\ulnone st all Loads on a Boat\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 As\cf0\ulnone sign a Load to a Boat\tab }}}}\f1\fs22\par
+\cf2\ul Unas{{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 s\cf0\ulnone sign a Load from a Boat\tab }}}}\cf0\ulnone\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Create a Lo\cf0\ulnone ad\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Get a Lo\cf0\ulnone ad\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 List all Loads\cf0\ulnone\tab }}}}\f1\fs22\par
+{\cf2\ul{\field{\*\fldinst{HYPERLINK "\\\\l "}}{\fldrslt{\cf1 Delete a Lo\cf0\ulnone ad\tab }}}}\f1\fs22\par
 
 \pard\widctlpar\sa160\sl252\slmult1\par
+\par
 
 \pard\keep\keepn\widctlpar\s1\sb240\sl252\slmult1\cf3\f0\fs32 Change log\par
 \trowd\trgaph108\trleft-108\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
